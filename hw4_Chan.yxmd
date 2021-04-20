@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="54" />
+        <Position x="54" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -21,9 +21,6 @@
 Query=`capstone_productSales$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="emp_id" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`capstone_productSales$`" type="V_String" />
@@ -40,7 +37,7 @@ Query=`capstone_productSales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="150" />
+        <Position x="54" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -58,9 +55,6 @@ Query=`capstone_productSales$`</DefaultAnnotationText>
 Query=`Sheet1$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Week0+" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`Sheet1$`" type="Double" />
@@ -76,7 +70,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="234" />
+        <Position x="54" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -114,7 +108,7 @@ Query=`product_table$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="318" />
+        <Position x="54" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -145,7 +139,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="234" y="234" />
+        <Position x="234" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -172,11 +166,11 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="126" y="18" />
+        <Position x="126" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13840_ced9a16a05824278bd03b9ef564d94a8_\Engine_7076_f0331fd7ddd549ec91f5f90d03a658f9_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_178a2fa2d71f4b02a8799d1d7537ac41_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -200,11 +194,11 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="126" y="114" />
+        <Position x="126" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13840_ced9a16a05824278bd03b9ef564d94a8_\Engine_7076_17e8b17f596047679cfee99883f1aeae_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_422193abcdd3420baa7c71baefa7758a_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -228,11 +222,11 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="126" y="282" />
+        <Position x="126" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13840_ced9a16a05824278bd03b9ef564d94a8_\Engine_7076_57fa4f990eb248e0a86d09e503afcb9a_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_2e46a1d4a73a45b08981172f9b01461b_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -256,7 +250,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="186" y="150" />
+        <Position x="186" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -283,7 +277,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="234" y="54" />
+        <Position x="234" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -303,7 +297,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="138" y="390" />
+        <Position x="138" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -325,7 +319,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="378" y="426" />
+        <Position x="378" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -352,11 +346,11 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="474" y="390" />
+        <Position x="474" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13840_ced9a16a05824278bd03b9ef564d94a8_\Engine_7076_8badf46615b340cf916d7f4878de9599_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_cd7568213eb84d6c9814bdee79f9f5c5_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -380,7 +374,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="234" y="426" />
+        <Position x="234" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -402,12 +396,12 @@ Firstname2 = Trim([Firstname2])
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="294" y="114" />
+        <Position x="294" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="DateTimeFormat(DateTimeAdd([Date],7,&quot;days&quot;),&quot;%m/%d/%Y&quot;)" field="Week End Date" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeFormat(DateTimeAdd([Date],6,&quot;days&quot;),&quot;%m/%d/%Y&quot;)" field="Week End Date" size="1073741823" type="V_WString" />
             <FormulaField expression="DateTimeFormat([Date],&quot;%m/%d/%Y&quot;)" field="Week Start Date" size="64" type="String" />
             <FormulaField expression="[Year] + &quot;Q&quot; + [Quarter]" field="Sales Quarter" size="1073741823" type="V_WString" />
           </FormulaFields>
@@ -415,7 +409,7 @@ Firstname2 = Trim([Firstname2])
         <Annotation DisplayMode="0">
           <Name />
           <AnnotationText>add and format columns</AnnotationText>
-          <DefaultAnnotationText>Week End Date = DateTimeFormat(DateTimeAdd([Date],7,"days"),"%m/%d/%Y")
+          <DefaultAnnotationText>Week End Date = DateTimeFormat(DateTimeAdd([Date],6,"days"),"%m/%d/%Y")
 Week Sta...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -424,7 +418,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="498" y="246" />
+        <Position x="498" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -455,11 +449,11 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="630" y="246" />
+        <Position x="630" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13840_ced9a16a05824278bd03b9ef564d94a8_\Engine_7076_9f6dfcf7a3304c5aadb8f5e69e7187dd_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_8421b46e3f8f4ed280fd6ad652e27907_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -483,7 +477,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="34">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="798" y="282" />
+        <Position x="798" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -516,7 +510,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="402" y="114" />
+        <Position x="402" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -538,11 +532,11 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="36">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="882" y="282" />
+        <Position x="882" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13840_ced9a16a05824278bd03b9ef564d94a8_\Engine_7076_d81f5027fe654ec095b06a59d27d81bc_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_a42eba970bc44dd7b3ee1bbbf2c4ccde_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -566,7 +560,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="37">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="942" y="426" />
+        <Position x="942" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -597,11 +591,11 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="38">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1038" y="378" />
+        <Position x="1038" y="414" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13840_ced9a16a05824278bd03b9ef564d94a8_\Engine_7076_5d274ecded264a7dbcd262114ff9c11c_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_9d397c2c4faa4a0fa4ae737cde5b6758_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -625,7 +619,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1158" y="426" />
+        <Position x="1158" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
