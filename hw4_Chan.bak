@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="25">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`capstone_productSales$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Product Sales Table</AnnotationText>
+          <DefaultAnnotationText>capstone_data_complete.xlsx
+Query=`capstone_productSales$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="emp_id" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`capstone_productSales$`" type="V_String" />
+            <Field name="item_id" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`capstone_productSales$`" type="V_String" />
+            <Field name="year" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`capstone_productSales$`" type="Double" />
+            <Field name="week" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`capstone_productSales$`" type="Double" />
+            <Field name="quantity" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`capstone_productSales$`" type="Double" />
+            <Field name="weekx" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`capstone_productSales$`" type="Double" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`date_table$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Date Table</AnnotationText>
+          <DefaultAnnotationText>capstone_data_complete.xlsx
+Query=`date_table$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="week" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`date_table$`" type="Double" />
+            <Field name="quarter" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`date_table$`" type="Double" />
+            <Field name="sales_period" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`date_table$`" type="Double" />
+            <Field name="year" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`date_table$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Product Table</AnnotationText>
+          <DefaultAnnotationText>capstone_data_complete.xlsx
+Query=`product_table$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_id" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="V_String" />
+            <Field name="product_name" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="V_String" />
+            <Field name="url" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="V_String" />
+            <Field name="manufacturer" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="V_String" />
+            <Field name="year" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="V_String" />
+            <Field name="quarter" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="V_String" />
+            <Field name="price" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="Double" />
+            <Field name="F8" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="Double" />
+            <Field name="F9" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="Double" />
+            <Field name="F10" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="Double" />
+            <Field name="quarter2" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`product_table$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`sales_team$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sales Team</AnnotationText>
+          <DefaultAnnotationText>capstone_data_complete.xlsx
+Query=`sales_team$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="emp_id" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`sales_team$`" type="V_String" />
+            <Field name="name" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`sales_team$`" type="V_String" />
+            <Field name="region" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`sales_team$`" type="V_String" />
+            <Field name="pay_grade" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\capstone_data_complete.xlsx|||`sales_team$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="150" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\ProductSales.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ProductSales.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\Date.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="246" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\Product.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Product.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="138" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\Sales.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sales.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="138" y="366" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Pull tables from excel and convert each to CSV
+]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="item_id" selected="True" />
+            <SelectField field="product_name" selected="True" />
+            <SelectField field="url" selected="True" />
+            <SelectField field="manufacturer" selected="True" />
+            <SelectField field="year" selected="True" />
+            <SelectField field="quarter" selected="True" />
+            <SelectField field="price" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>hw4_Chan</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
