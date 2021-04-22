@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="90" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -37,7 +37,7 @@ Query=`capstone_productSales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="186" />
+        <Position x="54" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -70,7 +70,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="270" />
+        <Position x="54" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -108,7 +108,7 @@ Query=`product_table$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="354" />
+        <Position x="54" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -139,7 +139,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="234" y="270" />
+        <Position x="234" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -166,7 +166,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="186" y="186" />
+        <Position x="186" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -193,7 +193,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="234" y="90" />
+        <Position x="234" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -213,7 +213,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="138" y="426" />
+        <Position x="138" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -235,7 +235,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="378" y="462" />
+        <Position x="378" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -262,11 +262,11 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="474" y="426" />
+        <Position x="474" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13876_b04b9e35971f4495ba14301e2057e0c8_\Engine_956_14209f55b94a4e48abad931110811c9e_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_5196_977982a4c890450ebb1d93ef8e763737_\Engine_9040_3eccb3d20cda43088a89bc402d559a83_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -290,7 +290,7 @@ Query=`sales_team$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="234" y="462" />
+        <Position x="234" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -312,7 +312,7 @@ Firstname2 = Trim([Firstname2])
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="294" y="150" />
+        <Position x="294" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -334,7 +334,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="498" y="282" />
+        <Position x="498" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -365,11 +365,11 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="630" y="282" />
+        <Position x="630" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13876_b04b9e35971f4495ba14301e2057e0c8_\Engine_956_273ecfe6a3e24cd68daf26dfa017064e_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_5196_977982a4c890450ebb1d93ef8e763737_\Engine_9040_689960d6cffc413facedeb62cde58b41_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -393,7 +393,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="34">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="798" y="318" />
+        <Position x="798" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -426,7 +426,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="402" y="150" />
+        <Position x="402" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -448,11 +448,11 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="36">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="882" y="318" />
+        <Position x="882" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13876_b04b9e35971f4495ba14301e2057e0c8_\Engine_956_51f7edce908f408ea25b9bd58b33bf2c_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_5196_977982a4c890450ebb1d93ef8e763737_\Engine_9040_3d36a63f58f341e4b8ab79bd9c46e3af_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -476,7 +476,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="37">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="942" y="462" />
+        <Position x="942" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -507,11 +507,11 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="38">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1038" y="414" />
+        <Position x="1038" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13876_b04b9e35971f4495ba14301e2057e0c8_\Engine_956_27c23e8a9b024296a502b03fbcefbfef_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_5196_977982a4c890450ebb1d93ef8e763737_\Engine_9040_1d53b835cd05440c84ad430ce4624326_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -535,27 +535,99 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1158" y="462" />
+        <Position x="1158" y="426" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <OrderChanged value="False" />
+          <OrderChanged value="True" />
           <CommaDecimal value="False" />
           <SelectFields>
+            <SelectField field="Item Code" selected="True" />
+            <SelectField field="Sales Year" selected="True" />
+            <SelectField field="W#" selected="True" />
+            <SelectField field="Week Number" selected="True" />
+            <SelectField field="EmpID" selected="True" />
+            <SelectField field="quantity" selected="True" />
+            <SelectField field="price" selected="True" />
+            <SelectField field="Sales Period" selected="True" />
+            <SelectField field="Sales Quarter" selected="True" />
+            <SelectField field="Week Start Date" selected="True" />
+            <SelectField field="Week End Date" selected="True" />
+            <SelectField field="Employee Paygrade" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="manufacturer" selected="True" rename="Manufactuer" />
+            <SelectField field="Firstname" selected="True" />
+            <SelectField field="Lastname" selected="True" />
             <SelectField field="Year" selected="False" />
+            <SelectField field="Quarter" selected="False" />
+            <SelectField field="emp_id" selected="False" />
+            <SelectField field="item_id" selected="False" />
+            <SelectField field="Right_year" selected="False" />
             <SelectField field="week" selected="False" />
             <SelectField field="weekx" selected="False" />
             <SelectField field="FileName" selected="False" />
-            <SelectField field="*Unknown" selected="True" />
+            <SelectField field="Right_quarter" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText />
+          <AnnotationText>reorder and name columns</AnnotationText>
+          <DefaultAnnotationText>reorder and name columns</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1254" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[quantity] * [price]" field="Total $" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Create and populate Total $ column</AnnotationText>
+          <DefaultAnnotationText><![CDATA[Total $ = [quantity] * [price]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1338" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\Complete_Table.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>create csv and save to data folder</AnnotationText>
+          <DefaultAnnotationText>Complete_Table.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
   </Nodes>
   <Connections>
@@ -634,6 +706,14 @@ Week Sta...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="37" Connection="Join" />
       <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
