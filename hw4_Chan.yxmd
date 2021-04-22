@@ -164,90 +164,6 @@ Query=`sales_team$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="13">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="126" y="54" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_178a2fa2d71f4b02a8799d1d7537ac41_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="14">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="126" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_422193abcdd3420baa7c71baefa7758a_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="16">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="126" y="318" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_2e46a1d4a73a45b08981172f9b01461b_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
         <Position x="186" y="186" />
@@ -350,7 +266,7 @@ Query=`sales_team$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_cd7568213eb84d6c9814bdee79f9f5c5_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13876_b04b9e35971f4495ba14301e2057e0c8_\Engine_956_14209f55b94a4e48abad931110811c9e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -453,7 +369,7 @@ Week Sta...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_8421b46e3f8f4ed280fd6ad652e27907_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13876_b04b9e35971f4495ba14301e2057e0c8_\Engine_956_273ecfe6a3e24cd68daf26dfa017064e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -536,7 +452,7 @@ Week Sta...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_a42eba970bc44dd7b3ee1bbbf2c4ccde_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13876_b04b9e35971f4495ba14301e2057e0c8_\Engine_956_51f7edce908f408ea25b9bd58b33bf2c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -595,7 +511,7 @@ Week Sta...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_8652_e591f0607a824f39bc8026448cd07e9a_\Engine_3380_9d397c2c4faa4a0fa4ae737cde5b6758_.yxdb</TempFile>
+          <TempFile>C:\Users\Tiania\AppData\Local\Temp\Engine_13876_b04b9e35971f4495ba14301e2057e0c8_\Engine_956_27c23e8a9b024296a502b03fbcefbfef_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -626,6 +542,10 @@ Week Sta...</DefaultAnnotationText>
           <OrderChanged value="False" />
           <CommaDecimal value="False" />
           <SelectFields>
+            <SelectField field="Year" selected="False" />
+            <SelectField field="week" selected="False" />
+            <SelectField field="weekx" selected="False" />
+            <SelectField field="FileName" selected="False" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -641,15 +561,7 @@ Week Sta...</DefaultAnnotationText>
   <Connections>
     <Connection>
       <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="13" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="1" Connection="Output" />
       <Destination ToolID="19" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="14" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="2" Connection="Output" />
@@ -658,10 +570,6 @@ Week Sta...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="3" Connection="Output" />
       <Destination ToolID="10" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="16" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
