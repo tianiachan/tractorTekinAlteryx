@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1458" y="186" />
+        <Position x="1484" y="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -30,7 +30,7 @@
     </Node>
     <Node ToolID="76">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1577" y="77" width="484" height="192" />
+        <Position x="1603" y="131" width="484" height="192" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -48,7 +48,7 @@
       <ChildNodes>
         <Node ToolID="62">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1830" y="138" />
+            <Position x="1856" y="192" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -66,7 +66,7 @@
         </Node>
         <Node ToolID="61">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1710" y="138" />
+            <Position x="1736" y="192" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -137,7 +137,7 @@
         </Node>
         <Node ToolID="60">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1602" y="138" />
+            <Position x="1628" y="192" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -162,9 +162,6 @@
               <DefaultAnnotationText>Complete_Table.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Item Code" size="254" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\Complete_Table.csv" type="V_String" />
@@ -191,7 +188,7 @@
         </Node>
         <Node ToolID="79">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1938" y="126" />
+            <Position x="1964" y="180" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -219,7 +216,7 @@
     </Node>
     <Node ToolID="75">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1590" y="30" width="107" height="24" />
+        <Position x="1616" y="84" width="107" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -237,7 +234,7 @@
       <ChildNodes>
         <Node ToolID="52">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1734" y="90" />
+            <Position x="1760" y="144" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -275,7 +272,7 @@
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1914" y="90" />
+            <Position x="1940" y="144" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -307,7 +304,7 @@
         </Node>
         <Node ToolID="48">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1614" y="102" />
+            <Position x="1640" y="156" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -358,7 +355,7 @@
         </Node>
         <Node ToolID="78">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2034" y="78" />
+            <Position x="2060" y="132" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -381,7 +378,7 @@ ESP Total $ =
     </Node>
     <Node ToolID="46">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="617" y="77" width="795" height="240" />
+        <Position x="643" y="131" width="795" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -399,7 +396,7 @@ ESP Total $ =
       <ChildNodes>
         <Node ToolID="33">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="762" y="161" />
+            <Position x="788" y="215" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -427,7 +424,7 @@ ESP Total $ =
         </Node>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="990" y="126" />
+            <Position x="1016" y="180" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -455,7 +452,7 @@ ESP Total $ =
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1194" y="186" />
+            <Position x="1220" y="240" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -503,7 +500,7 @@ ESP Total $ =
         </Node>
         <Node ToolID="40">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1290" y="186" />
+            <Position x="1316" y="240" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -523,7 +520,7 @@ ESP Total $ =
         </Node>
         <Node ToolID="57">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="642" y="174" />
+            <Position x="668" y="228" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -568,7 +565,7 @@ ESP Total $ =
         </Node>
         <Node ToolID="58">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="870" y="174" />
+            <Position x="896" y="228" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -604,7 +601,7 @@ ESP Total $ =
         </Node>
         <Node ToolID="59">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1098" y="186" />
+            <Position x="1124" y="240" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -637,7 +634,7 @@ ESP Total $ =
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="28" y="0" width="457" height="165" />
+        <Position x="54" y="53" width="458" height="166" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -655,7 +652,7 @@ ESP Total $ =
       <ChildNodes>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="53" y="48" />
+            <Position x="79" y="102" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -673,9 +670,6 @@ ESP Total $ =
 Query=`productSales$`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Index" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\capstone_data_for_alteryx.xlsx|||`productSales$`" type="Double" />
@@ -742,7 +736,7 @@ Query=`productSales$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="354" y="49" />
+            <Position x="380" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -768,7 +762,7 @@ Query=`productSales$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="73">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-            <Position x="162" y="48" />
+            <Position x="188" y="102" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -852,7 +846,7 @@ Query=`productSales$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="74">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="258" y="49" />
+            <Position x="284" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -874,7 +868,7 @@ Query=`productSales$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="29" y="185" width="442" height="201" />
+        <Position x="54" y="239" width="443" height="201" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -892,7 +886,7 @@ Query=`productSales$`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="53" y="269" />
+            <Position x="79" y="323" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -910,9 +904,6 @@ Query=`productSales$`</DefaultAnnotationText>
 Query=`Date$`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Week0+" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\capstone_data_for_alteryx.xlsx|||`Date$`" type="Double" />
@@ -928,7 +919,7 @@ Query=`Date$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="150" y="270" />
+            <Position x="176" y="324" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -955,7 +946,7 @@ Query=`Date$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="258" y="234" />
+            <Position x="284" y="288" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -977,7 +968,7 @@ Week Sta...</DefaultAnnotationText>
         </Node>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="366" y="234" />
+            <Position x="392" y="288" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1001,7 +992,7 @@ Week Sta...</DefaultAnnotationText>
     </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="29" y="401" width="666" height="303" />
+        <Position x="55" y="454" width="666" height="304" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1019,7 +1010,7 @@ Week Sta...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="3">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="54" y="486" />
+            <Position x="80" y="540" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1037,9 +1028,6 @@ Week Sta...</DefaultAnnotationText>
 Query=`productinfo$`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="PROD_CODE" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\capstone_data_for_alteryx.xlsx|||`productinfo$`" type="V_String" />
@@ -1064,7 +1052,7 @@ Query=`productinfo$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="64">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="162" y="449" />
+            <Position x="188" y="503" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1095,7 +1083,7 @@ Query=`productinfo$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="65">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="162" y="522" />
+            <Position x="188" y="576" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1127,7 +1115,7 @@ Query=`productinfo$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="66">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="246" y="558" />
+            <Position x="272" y="612" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1147,7 +1135,7 @@ Query=`productinfo$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="67">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-            <Position x="258" y="450" />
+            <Position x="284" y="504" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1181,7 +1169,7 @@ Query=`productinfo$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="68">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="402" y="450" />
+            <Position x="428" y="504" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1206,7 +1194,7 @@ Query=`productinfo$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="69">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-            <Position x="354" y="558" />
+            <Position x="380" y="612" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1242,7 +1230,7 @@ Query=`productinfo$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="70">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="462" y="558" />
+            <Position x="488" y="612" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1267,7 +1255,7 @@ Query=`productinfo$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="72">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="570" y="486" />
+            <Position x="596" y="540" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1289,7 +1277,7 @@ Query=`productinfo$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="29" y="713" width="529" height="225" />
+        <Position x="55" y="767" width="529" height="225" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1307,7 +1295,7 @@ Query=`productinfo$`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="54" y="762" />
+            <Position x="80" y="816" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1325,9 +1313,6 @@ Query=`productinfo$`</DefaultAnnotationText>
 Query=`SalesTeam$`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Sales Team Lead" size="255" source="File: E:\Users\Tiania\Desktop\TekSystemsDocuments\Homework\tractorTekinAlteryx\Data\capstone_data_for_alteryx.xlsx|||`SalesTeam$`" type="V_String" />
@@ -1341,7 +1326,7 @@ Query=`SalesTeam$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="22">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-            <Position x="138" y="762" />
+            <Position x="164" y="816" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1363,7 +1348,7 @@ Query=`SalesTeam$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="24">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="330" y="834" />
+            <Position x="356" y="888" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1393,7 +1378,7 @@ Query=`SalesTeam$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="474" y="834" />
+            <Position x="500" y="888" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1421,7 +1406,7 @@ Query=`SalesTeam$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="222" y="822" />
+            <Position x="248" y="876" />
           </GuiSettings>
           <Properties>
             <Configuration>
